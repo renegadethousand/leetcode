@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -26,8 +24,6 @@ public class RomanToInteger {
         romanMap.put("V", 5);
         romanMap.put("IV", 4);
         romanMap.put("I", 1);
-
-        List<String> romanList = new ArrayList<>();
 
         int result = 0;
 
